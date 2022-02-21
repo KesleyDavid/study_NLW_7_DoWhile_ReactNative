@@ -6,7 +6,7 @@ npm-debug.*
 *.p8
 *.p12
 *.key
-*.mobileprovision
+*.nlw-dowhileprovision
 *.orig.*
 web-build/
 

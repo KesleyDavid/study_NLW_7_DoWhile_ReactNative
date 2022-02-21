@@ -1,5 +1,5 @@
 # Commands
 
-expo init mobile  
+expo init nlw-dowhile  
 
 blank typescript  
