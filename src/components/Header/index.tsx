@@ -2,7 +2,8 @@ import React from 'react';
 
 import {
   Text,
-  View
+  View,
+  TouchableOpacity,
 } from 'react-native';
 
 import LogoSvg from '../../assets/logo.svg'
@@ -13,7 +14,11 @@ export function Header(){
   return (
     <View style={styles.container}>
       <LogoSvg />
-      <Text>Sair</Text>
+      <TouchableOpacity>
+        <Text style={styles.logoutText}>
+          Sair
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 }
