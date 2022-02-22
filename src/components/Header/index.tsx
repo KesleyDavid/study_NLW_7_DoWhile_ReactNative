@@ -19,7 +19,7 @@ export function Header(){
       <View style={styles.logoutButton}>
         <TouchableOpacity>
           <Text style={styles.logoutText}>
-            Sair
+            Logout
           </Text>
         </TouchableOpacity>
         <UserPhoto imageUri='https://github.com/kesleydavid.png' />
