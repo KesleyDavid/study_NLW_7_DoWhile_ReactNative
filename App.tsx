@@ -1,4 +1,5 @@
 import { Home } from './src/screens/Home';
+import { AuthProvider } from './src/hooks/auth';
 
 import { 
   useFonts,
@@ -20,9 +21,13 @@ export default function App() {
   }
 
   return (
-    <>
-      <StatusBar style="light" />
+    <AuthProvider>
+      <StatusBar
+        style="light"
+        translucent
+        backgroundColor="transparent"
+      />
       <Home />
-    </>
+    </AuthProvider>
   );
 }
